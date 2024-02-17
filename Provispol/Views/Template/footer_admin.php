@@ -23,7 +23,12 @@
     <script src="<?= media(); ?>/js/bootstrap-toggle.min.js"></script>
     <script src="<?= media(); ?>/js/bootstrap2-toggle.js"></script>
     <script src="<?= media(); ?>/js/bootstrap2-toggle.min.js"></script>
+    <?php if($data['page_name'] == "rol_usuario") {  ?>
     <script src="<?= media(); ?>/js/functions_roles.js"></script>
+    <?php } ?>
+    <?php if($data['page_name'] == "rol_usuario") {  ?>
+    <script src="<?= media(); ?>/js/functions_usuarios.js"></script>
+    <?php } ?>
 
   </body>
 </html>

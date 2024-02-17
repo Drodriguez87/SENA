@@ -1,7 +1,7 @@
 <?php
 
     // define("BASE_URL","http://localhost/Proyectos/Ventas");
-    const BASE_URL = "http://localhost/Proyectos/Provispol";
+    const BASE_URL = "http://localhost/SENA/Provispol";
 
     //Zona horaria
 	date_default_timezone_set('America/Bogota');
