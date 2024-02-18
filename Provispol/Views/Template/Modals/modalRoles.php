@@ -40,65 +40,10 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade modalPermisos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade modalPermisos" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Permisos Roles de Usuario</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">x</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <div class="col-md-12">
-          <div class="tile">
-            <h3 class="tile-title">Responsive Table</h3>
-            <div class="table-responsive">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Modulo</th>
-                    <th>Leer</th>
-                    <th>Escribir</th>
-                    <th>Actualizar</th>
-                    <th>Elminar</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Usuario</td>
-                      <td><div>
-                          <input type="checkbox" checked data-toggle="toggle">
-                        </div>
-                      </td>
-                      <td><div class="toggle-flip">
-                          <label>
-                            <input type="checkbox"><span class="flip-indecator" data-toggle-on="ON" data-toggle-off="OFF"></span>
-                          </label>
-                        </div></td>
-                      <td><div class="toggle-flip">
-                          <label>
-                            <input type="checkbox"><span class="flip-indicator" data-toggle-on="ON" data-toggle-off="OFF"></span>
-                          </label>
-                        </div></td>
-                      <td><div class="toggle-flip">
-                          <label>
-                            <input type="checkbox"><span class="flip-indicator" data-toggle-on="ON" data-toggle-off="OFF"></span>
-                          </label>
-                        </div></td>
-                      <td><div class="toggle-flip">
-                          <label>
-                            <input type="checkbox"><span class="flip-indicator" data-toggle-on="ON" data-toggle-off="OFF"></span>
-                          </label>
-                        </div></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
 </div>
