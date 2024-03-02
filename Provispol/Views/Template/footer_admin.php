@@ -8,6 +8,7 @@
     <script src="<?= media(); ?>/js/main.js"></script>
     <script src="<?= media();?>/js/fontawesome.js"></script>
     <script src="<?= media(); ?>/js/functions_admin.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="<?= media(); ?>/js/plugins/pace.min.js"></script>
     <!-- Page specific javascripts-->

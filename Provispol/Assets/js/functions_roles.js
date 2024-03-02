@@ -194,7 +194,19 @@ function fntPermisos() {
     var btnPermisosRol = document.querySelectorAll(".btnPermisosRol");
     btnPermisosRol.forEach(function (btnPermisosRol) {
         btnPermisosRol.addEventListener('click', function(){
-            $('.modalPermisos').modal('show');
+            var idrol = this.getAttribute("rl");
+            var request = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            var ajaxUrl = base_url+'/Permisos/getPermisosRol/'+idrol;
+            request.open('GET', ajaxUrl , true);
+            request.send();
+
+            request.onreadystatechange = function(){
+                if(request.readyState == 4 && request.status == 200){
+                    console.log(request.responseText);
+                    document.querySelector('#contentAjax').innerHTML = request.responseText;
+                    $('.modalPermisos').modal('show');
+                }
+            }
         });
     });
 }

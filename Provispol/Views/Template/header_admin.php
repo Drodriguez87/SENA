@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap-toggle.min.css">
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap2-toggle.css">
     <link rel="stylesheet" type="text/css" href="<?= media(); ?>/css/bootstrap2-toggle.min.css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/7ed446d229.js" crossorigin="anonymous"></script>
   </head>
