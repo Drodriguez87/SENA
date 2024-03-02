@@ -2,14 +2,14 @@
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Permisos de Usuario Rol</h5>
+        <h5 class="modal-title h4">Permisos de Usuario Rol</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true">x</span>
         </button>
       </div>
       <div class="modal-body">
         <?php
-          dep($data);
+          //dep($data);
         ?>
         <div class="col-md-12">
           <div class="tile">
@@ -27,19 +27,20 @@
                     </tr>
                   </thead>
                   <tbody>
-                      <?php
-                          $no=1;
-                          $modulos = $data['modulos'];
-                          for ($i=0; $i < count($modulos); $i++){
-                            $permisos = $modulos[$i]['permisos'];
-                            $rCheck = $permisos['r'] == 1 ? " checked " : "";
-                            $wCheck = $permisos['w'] == 1 ? " checked " : "";
-                            $uCheck = $permisos['u'] == 1 ? " checked " : "";
-                            $dCheck = $permisos['d'] == 1 ? " checked " : "";
+                            <?php 
+                                $no=1;
+                                $modulos = $data['modulos'];
+                                for ($i=0; $i < count($modulos); $i++) { 
 
-                            $idmod = $modulos[$i]['moduloid'];
-                          }
-                      ?>
+                                    $permisos = $modulos[$i]['permisos'];
+                                    $rCheck = $permisos['r'] == 1 ? " checked " : "";
+                                    $wCheck = $permisos['w'] == 1 ? " checked " : "";
+                                    $uCheck = $permisos['u'] == 1 ? " checked " : "";
+                                    $dCheck = $permisos['d'] == 1 ? " checked " : "";
+
+                                    $idmod = $modulos[$i]['idmodulo'];
+                                }
+                            ?> 
                     <tr>
                       <td>Usuario</td>
                       <td>
@@ -75,3 +76,4 @@
     </div>
   </div>
 </div>
+
