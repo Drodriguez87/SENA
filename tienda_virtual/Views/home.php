@@ -1,6 +1,7 @@
 <?php 
 	headerTienda($data);
 	$arrSlider = $data['slider'];
+	dep($arrSlider);
 	$arrBanner = $data['banner'];
 	$arrProductos = $data['productos'];
  ?>

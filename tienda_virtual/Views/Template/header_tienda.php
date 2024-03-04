@@ -15,7 +15,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="<?= media() ?>/tienda/images/favicon.ico"/>
+	<link rel="icon" type="image/png" href="<?= media() ?>/tienda/images/favicon.png"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="<?= media() ?>/tienda/vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -60,7 +60,7 @@
 			<div class="top-bar">
 				<div class="content-topbar flex-sb-m h-full container">
 					<div class="left-top-bar">
-						Bienvenido usuario: Carlos Arana
+						Bienvenido usuario: David Rodriguez
 					</div>
 
 					<div class="right-top-bar flex-w h-full">
@@ -75,6 +75,9 @@
 						<a href="#" class="flex-c-m trans-04 p-lr-25">
 							Salir
 						</a>
+						<a href="<?= base_url(); ?>/login" class="flex-c-m trans-04 p-lr-25">
+							Inicia Sesion
+						</a>
 					</div>
 				</div>
 			</div>
@@ -84,7 +87,7 @@
 					
 					<!-- Logo desktop -->		
 					<a href="<?= base_url(); ?>" class="logo">
-						<img src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual">
+						<img src="<?= media() ?>/tienda/images/logo.jpg" alt="Logo Mitra">
 					</a>
 
 					<!-- Menu desktop -->
@@ -103,7 +106,7 @@
 							</li>
 
 							<li>
-								<a href="<?= base_url(); ?>/nosotros">Nosotro</a>
+								<a href="<?= base_url(); ?>/nosotros">Nosotros</a>
 							</li>
 
 							<li>
@@ -131,7 +134,7 @@
 		<div class="wrap-header-mobile">
 			<!-- Logo moblie -->		
 			<div class="logo-mobile">
-				<a href="<?= base_url(); ?>"><img src="<?= media() ?>/tienda/images/logo.png" alt="Tienda Virtual"></a>
+				<a href="<?= base_url(); ?>"><img src="<?= media() ?>/tienda/images/logo.jpg" alt="Tienda Virtual"></a>
 			</div>
 
 			<!-- Icon header -->
@@ -160,7 +163,7 @@
 			<ul class="topbar-mobile">
 				<li>
 					<div class="left-top-bar">
-						Bienvenido Abel
+						Bienvenido David
 					</div>
 				</li>
 

@@ -1,11 +1,10 @@
 <?php 
 	
 	//define("BASE_URL", "http://localhost/tienda_virtual/");
-	//const BASE_URL = "https://abelosh.com/store";
 	const BASE_URL = "http://localhost/SENA/tienda_virtual";
 
 	//Zona horaria
-	date_default_timezone_set('America/Guatemala');
+	date_default_timezone_set('America/Bogota');
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
@@ -33,22 +32,22 @@
 	//const SECRET = "ELCYtuxTFft8kEuAhcg8jE7_Bi31BnMd8E4DilpsnnsgXnZRUA8AKiXHwOVSPVu7xFIDZYw_6AjXulyC";
 
 	//Datos envio de correo
-	const NOMBRE_REMITENTE = "Tienda Virtual";
-	const EMAIL_REMITENTE = "no-reply@abelosh.com";
-	const NOMBRE_EMPESA = "Tienda Virtual";
-	const WEB_EMPRESA = "www.abelosh.com";
+	const NOMBRE_REMITENTE = "MITRA";
+	const EMAIL_REMITENTE = "no-reply@info.com";
+	const NOMBRE_EMPESA = "MITRA";
+	const WEB_EMPRESA = "www.empresa.co";
 
 	//Datos Empresa
-	const DIRECCION = "Avenida las Américas Zona 13, Guatemala";
-	const TELEMPRESA = "+(502)78787845";
-	const EMAIL_EMPRESA = "info@abelosh.com";
-	const EMAIL_PEDIDOS = "info@abelosh.com";
+	const DIRECCION = "Cra 93 # 130 - 17, Bogota, Colombia";
+	const TELEMPRESA = "+(300)6473024";
+	const EMAIL_EMPRESA = "david@info.com";
+	const EMAIL_PEDIDOS = "david@info.com";
 
 	const CAT_SLIDER = "1,2,3";
 	const CAT_BANNER = "4,5,6";
 
 	//Datos para Encriptar / Desencriptar
-	const KEY = 'abelosh';
+	const KEY = 'drodriguez';
 	const METHODENCRIPT = "AES-128-ECB";
 
 	//Envío

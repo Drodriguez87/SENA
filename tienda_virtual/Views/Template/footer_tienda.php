@@ -11,25 +11,25 @@
 					<ul>
 						<li class="p-b-10">
 							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Women
+								Chaquetas Mujer
 							</a>
 						</li>
 
 						<li class="p-b-10">
 							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Men
+								Chaquetas Hombre
 							</a>
 						</li>
 
 						<li class="p-b-10">
 							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Shoes
+								Accesorios
 							</a>
 						</li>
 
 						<li class="p-b-10">
 							<a href="#" class="stext-107 cl7 hov-cl1 trans-04">
-								Watches
+								Otros
 							</a>
 						</li>
 					</ul>
@@ -37,20 +37,20 @@
 
 				<div class="col-sm-6 col-lg-4 p-b-50">
 					<h4 class="stext-301 cl0 p-b-30">
-						Cotacto
+						Contacto
 					</h4>
 
 					<p class="stext-107 cl7 size-201">
-						Av. Las Américas Zona 13 <br>
-						Tel: (+52) 242424-2424
+						Cra 93 # 130 - 17 <br>
+						Tel: (+57) 3006473024
 					</p>
 
 					<div class="p-t-27">
-						<a href="https://facebook.com/abelosh" target="_blanck" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+						<a href="https://facebook.com" target="_blanck" class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
 							<i class="fa fa-facebook"></i>
 						</a>
 
-						<a href="https://instagram.com/febel24" target="_blanck"  class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
+						<a href="https://instagram.com" target="_blanck"  class="fs-18 cl7 hov-cl1 trans-04 m-r-16">
 							<i class="fa fa-instagram"></i>
 						</a>
 					</div>
